@@ -1,5 +1,20 @@
 # Getting Started with Create React App
 
+## React Context API Feedback
+
+### Tech stack
+```
+- React
+- React-Router, React-router-dom-v6,
+- Context API
+- JSON-Server
+- Framer-motion
+- React Icons
+```
+
+## Screenshot :
+![screenshot](./src/components/assets/screenshot.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
