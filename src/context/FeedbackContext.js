@@ -13,7 +13,7 @@ export const FeedbackProvier = ({ children }) => {
 
   useEffect(() => {
     fetchFeedback();
-  }, [feedback]);
+  }, []);
 
   // Fetch feedback
 
@@ -56,6 +56,7 @@ export const FeedbackProvier = ({ children }) => {
     const data = await response.json();
 
     setFeedback([data, ...feedback]);
+    fetchFeedback();
   };
 
   // Set Item to be Updated
@@ -86,6 +87,7 @@ export const FeedbackProvier = ({ children }) => {
     setFeedback(
       feedback.map((item) => (item.id === id ? { ...item, ...data } : item))
     );
+    fetchFeedback();
   };
 
   return (

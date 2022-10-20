@@ -16,19 +16,9 @@
       "text": "This is feedback item 3 coming from the backend"
     },
     {
-      "text": "YENİLENDİ This is feedback item 4 coming from the backend",
-      "rating": 2,
+      "text": "This is a test item, updated",
+      "rating": 7,
       "id": 4
-    },
-    {
-      "text": "asndkjasdkasdasdyenilendi",
-      "rating": 3,
-      "id": 5
-    },
-    {
-      "text": "asdasdasdasdasupdate",
-      "rating": 3,
-      "id": 6
     }
   ]
 }
